@@ -1,3 +1,46 @@
+$color-primary-blue: hsl(233, 26%, 24%);
+$color-grayish-blue: hsl(233, 8%, 62%);
+$color-light-gray: hsl(0, 0%, 98%);
+
 .hero {
-  background: darkgoldenrod;
+  min-height: 60vh;
+  padding-left: 15rem;
+  background: $color-light-gray;
+
+  display: flex;
+  align-items: center;
+
+  &__content {
+    flex-grow: 1;
+
+    button {
+      margin-top: 3rem;
+    }
+
+    &-heading {
+      font-size: 4rem;
+      font-weight: 300;
+      color: $color-primary-blue;
+      margin-bottom: 1.5rem;
+    }
+
+    &-description {
+      font-size: 1.3rem;
+      line-height: 1.6;
+      color: $color-grayish-blue;
+      width: 50%;
+    }
+  }
+
+  &__image {
+    background: url(../images/bg-intro-desktop.svg);
+    background-position: 11% 90%;
+    flex-grow: 2;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 }
