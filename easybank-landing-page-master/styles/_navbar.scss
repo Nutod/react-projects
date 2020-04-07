@@ -1,0 +1,52 @@
+$color-primary-blue: hsl(233, 26%, 24%);
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15rem;
+  min-height: 7rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: $color-primary-blue;
+  font-size: 1.4rem;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.header__button {
+  all: unset;
+  color: #fff;
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 50px;
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      to right,
+      hsl(192, 70%, 51%),
+      hsl(136, 65%, 51%)
+    );
+  }
+
+  &:active {
+    transform: translateY(3px);
+  }
+}

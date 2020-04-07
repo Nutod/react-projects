@@ -1,0 +1,38 @@
+@import "navbar";
+@import "hero";
+@import "services";
+@import "articles";
+@import "footer";
+
+$color-primary-blue: hsl(233, 26%, 24%);
+$color-primary-green: hsl(136, 65%, 51%);
+$color-primary-cyan: hsl(192, 70%, 51%);
+
+$color-grayish-blue: hsl(233, 8%, 62%);
+$color-light-grayish-blue: hsl(220, 16%, 96%);
+$color-light-gray: hsl(0, 0%, 98%);
+$color-white: hsl(0, 0%, 100%);
+
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* // Adjust font sizes here */
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.125rem;
+  color: #4c4c4c;
+}
+
+.container {
+  display: grid;
+}
