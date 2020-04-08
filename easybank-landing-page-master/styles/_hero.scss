@@ -35,12 +35,15 @@ $color-light-gray: hsl(0, 0%, 98%);
   &__image {
     background: url(../images/bg-intro-desktop.svg);
     background-position: 11% 90%;
+    background-size: cover;
     flex-grow: 2;
 
     img {
+      margin-top: 4rem;
       height: 100%;
-      width: 100%;
+      width: 95%;
       object-fit: cover;
+      z-index: 50;
     }
   }
 }
