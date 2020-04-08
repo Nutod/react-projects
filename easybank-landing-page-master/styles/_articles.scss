@@ -1,3 +1,40 @@
+$color-light-gray: hsl(0, 0%, 98%);
+$color-grayish-blue: hsl(233, 8%, 62%);
+$color-primary-blue: hsl(233, 26%, 24%);
+
 .articles {
-  background: darksalmon;
+  min-height: 50vh;
+  padding: 8rem 15rem;
+  background-color: $color-light-gray;
+
+  &__container {
+    display: grid;
+    column-gap: 1.3rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  &__card {
+    background-color: #fff;
+
+    img {
+      width: 100%;
+      height: 57%;
+      object-fit: cover;
+    }
+  }
+}
+
+.card {
+  &__author {
+    color: $color-grayish-blue;
+  }
+
+  &__title {
+    font-size: 1.7rem;
+    color: $color-primary-blue;
+  }
+
+  &__content {
+    padding: 1rem;
+  }
 }

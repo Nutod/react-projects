@@ -37,3 +37,18 @@ body {
 .container {
   display: grid;
 }
+
+h3 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: $color-primary-blue;
+  margin-bottom: 1.5rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: $color-primary-blue;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
