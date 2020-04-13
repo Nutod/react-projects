@@ -1,8 +1,35 @@
 .navbar__container {
   padding: 0 15rem;
-  min-height: 4rem;
+  min-height: 5rem;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  img {
+    padding-top: 1.3rem;
+  }
+}
+
+nav {
+  ul {
+    display: flex;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0 2rem;
+    color: $color-primary-blue;
+    opacity: 0.65;
+    transition: all 0.2s;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
 }
