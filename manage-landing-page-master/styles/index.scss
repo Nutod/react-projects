@@ -1,4 +1,10 @@
 @import "base";
+@import "navbar";
+@import "hero";
+@import "services";
+@import "subscription";
+@import "testimonials";
+@import "footer";
 
 *,
 *:after,
@@ -19,10 +25,6 @@ body {
   font-size: 1.125rem;
   line-height: 1.7;
   color: $dark-grayish-blue;
-}
-
-.container {
-  display: grid;
 }
 
 h3 {
