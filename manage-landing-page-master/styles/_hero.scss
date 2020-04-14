@@ -1,3 +1,26 @@
 .hero__container {
-  background: burlywood;
+  padding: 0 15rem;
+  min-height: 73vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0;
+
+  img {
+    width: 100%;
+  }
+}
+
+.hero__content {
+  align-self: center;
+}
+
+.hero__image {
+  align-self: center;
+  justify-content: end;
+}
+
+p {
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
 }
