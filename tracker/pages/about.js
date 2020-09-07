@@ -1,9 +1,10 @@
-function About(woozy, props) {
-  console.log(woozy, props)
+import Layout from "../components/layout"
+
+function About() {
   return (
-    <div>
+    <Layout>
       <p>I am the About component</p>
-    </div>
+    </Layout>
   )
 }
 

@@ -2,15 +2,15 @@ import React from "react"
 import Head from "next/head"
 import Nav from "./nav"
 
-function Layout(woozy) {
-  console.log(woozy)
+function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Tracker Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
+      {children}
     </>
   )
 }
