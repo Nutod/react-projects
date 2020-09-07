@@ -16,6 +16,7 @@ const resolvers = {
 
 const server = new ApolloServer({ typeDefs, resolvers })
 
+// Config for this api route
 export const config = {
   api: {
     bodyParser: false,

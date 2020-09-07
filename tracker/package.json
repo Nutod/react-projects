@@ -8,6 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@apollo/react-ssr": "^4.0.0",
+    "apollo-boost": "^0.4.9",
     "apollo-server-micro": "^2.17.0",
     "next": "9.5.3",
     "react": "16.13.1",
