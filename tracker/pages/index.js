@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import { withApollo } from "../lib/apollo"
 
 const Home = () => (
   <Layout>
@@ -77,4 +78,4 @@ const Home = () => (
   </Layout>
 )
 
-export default Home
+export default withApollo(Home)
