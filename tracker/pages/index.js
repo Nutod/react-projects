@@ -10,7 +10,7 @@ const HELLO_QUERY = gql`
 `
 
 const Home = () => {
-  const { data, loading, error } = useQuery()
+  const { data, loading, error } = useQuery(HELLO_QUERY)
 
   return (
     <Layout>
