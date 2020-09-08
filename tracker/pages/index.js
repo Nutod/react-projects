@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { withApollo } from "../lib/apollo"
 import { useQuery } from "@apollo/react-hooks"
+import gql from "graphql-tag"
 
 const HELLO_QUERY = gql`
   query helloQuery {
