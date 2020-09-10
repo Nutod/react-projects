@@ -9,7 +9,7 @@ export default function habit({ habit, index }) {
   return (
     <article>
       <h3>{habit}</h3>
-      <div>
+      <div className="buttons">
         {dates.map(date => (
           <HabitButton key={date.getTime()} {...{ date }} />
         ))}
@@ -24,6 +24,11 @@ export default function habit({ habit, index }) {
 
         h3 {
           border-bottom: 4px solid ${colors[index]};
+        }
+
+        .buttons {
+          display: flex;
+          justify-content: space-between;
         }
       `}</style>
     </article>
