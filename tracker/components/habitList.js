@@ -6,7 +6,7 @@ export default function habitList({ habits, setHabits }) {
     <section>
       <h2>My Habits</h2>
       {habits.map((habit, index) => (
-        <Habit key={index} habit={habit} />
+        <Habit key={index} habit={habit} {...{ index }} />
       ))}
     </section>
   )
